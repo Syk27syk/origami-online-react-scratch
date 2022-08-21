@@ -1,6 +1,9 @@
 import '../styles/globals.css';
 import React from 'react';
-import PropTypes from 'prop-types';
+
+MyApp.propTypes = {
+
+};
 
 export default function MyApp({Component, pageProps}) {
   return <Component {...pageProps} />;
